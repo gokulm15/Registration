@@ -11,6 +11,9 @@ public struct RegistrationUIView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
+    public init() {
+            // Your initialization code here
+        }
 
     public var body: some View {
         VStack {
