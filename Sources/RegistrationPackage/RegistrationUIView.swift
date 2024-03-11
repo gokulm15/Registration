@@ -1,9 +1,13 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+//
+//  SwiftUIView.swift
+//  
+//
+//  Created by gokul on 11/03/24.
+//
 
 import SwiftUI
 
-struct RegistrationPackage: View {
+struct RegistrationUIView: View {
     @State private var username: String = ""
 
     var body: some View {
@@ -19,8 +23,6 @@ struct RegistrationPackage: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        RegistrationPackage()
-    }
+#Preview {
+    RegistrationUIView()
 }
