@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct RegistrationUIView: View {
+public struct RegistrationUIView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
 
-    var body: some View {
+    public var body: some View {
         VStack {
             Text("Registration Form")
                 .font(.largeTitle)

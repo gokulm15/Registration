@@ -3,10 +3,10 @@
 
 import SwiftUI
 
-struct RegistrationPackage: View {
+public struct RegistrationPackage: View {
     @State private var username: String = ""
 
-    var body: some View {
+    public var body: some View {
         VStack {
             TextField("Username", text: $username)
                 .padding()
