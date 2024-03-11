@@ -1,7 +1,7 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 import UIKit
-class RegistrationController: UIViewController{
+class RegistrationPackage: UIViewController{
     let usernameTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "Username"
